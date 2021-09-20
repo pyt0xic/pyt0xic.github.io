@@ -5,15 +5,15 @@ const googleAnalyticsTrackingId = process.env.GOOGLE_ANALYTICS_ID
 
 module.exports = {
   siteMetadata: {
-    // You can overwrite values here that are used for the SEO component
-    // You can also add new values here to query them like usual
-    // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitleAlt: `Nic Wells`,
     siteTitle: `Nic Wells`,
-    siteDescription: `Personal Site and Portfolio for Nic Wells`,
-    // Will be set on the <html /> tag
+    siteTitleAlt: `Nic Wells - Personal Site`,
+    siteHeadline: `Nic Wells - Personal Site`,
+    siteUrl: `https://nicwells.me`,
+    siteDescription: `Portfolio and Personal Site for Nic Wells`,
     siteLanguage: `en`,
-    // Used for og:image and must be placed inside the `static` folder
+    siteImage: `/banner.jpg`,
+    author: `Nic Wells`,
+    basePath,
   },
   plugins: [
     {
