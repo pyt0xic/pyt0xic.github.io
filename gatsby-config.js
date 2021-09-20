@@ -12,8 +12,7 @@ module.exports = {
     siteDescription: `Portfolio and Personal Site for Nic Wells`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
-    author: `Nic Wells`,
-    basePath,
+    author: `Nic Wells`
   },
   plugins: [
     {
