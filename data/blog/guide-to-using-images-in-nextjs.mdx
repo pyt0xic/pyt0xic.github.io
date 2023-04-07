@@ -22,7 +22,7 @@ function Home() {
   return (
     <>
       <h1>My Homepage</h1>
-      <Image src="/me.png" alt="Picture of the author" width={500} height={500} />
+      <img src="/me.png" alt="Picture of the author" width={500} height={500} />
       <p>Welcome to my homepage!</p>
     </>
   )
@@ -42,7 +42,7 @@ Assuming we have a file called `ocean.jpg` in `data/img/ocean.jpg`, the followin
 Alternatively, since we are using mdx, we can just use the image component directly! Note, that you would have to provide a fixed width and height. The `img` tag method parses the dimension automatically.
 
 ```js
-<Image alt="ocean" src="/static/images/ocean.jpg" width={256} height={128} />
+<img alt="ocean" src="/static/images/ocean.jpg" width={256} height={128} />
 ```
 
 _Note_: If you try to save the image, it is in webp format, if your browser supports it!
